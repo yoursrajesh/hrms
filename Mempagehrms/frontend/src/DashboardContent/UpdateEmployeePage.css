@@ -1,0 +1,201 @@
+/* styles.css */
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  /* Style for the table cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Hide the password column */
+  td:nth-child(6),
+  th:nth-child(6) {
+    display: none;
+  }
+  
+
+
+
+
+.close-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+  }
+
+  .headeroftable {
+    background-color: #007bff; /* Blue color for header */
+    color: white;
+  }
+
+  .even-row {
+    background-color: #f0f0f0; /* Gray color for even rows */
+  }
+
+  .odd-row {
+    background-color: #ffffff; /* White color for odd rows */
+  }
+
+  .file-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .pagination-item {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .imgicon {
+    height: 25px;
+    width: 30px;
+  }
+
+
+
+
+
+  /* UpdateEmployeePage.css */
+
+/* Styles for the table header */
+.headeroftable {
+  background-color:red;
+  color: #fff; /* White text color */
+}
+
+/* Styles for odd rows */
+.odd-row {
+  background-color: #fff; /* White color for odd rows */
+}
+
+/* Styles for even rows */
+.even-row {
+  background-color: #f0f0f0; /* Gray color for even rows */
+}
+
+/* Pagination styles (adjust as needed) */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #2980b9;
+}
+
+/* Close icon styles */
+.close-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+
+
+.pagination-bar {
+  display: flex;
+  align-items:end;
+  margin-top: -20px;
+  margin-bottom:50px;
+}
+
+.pagination-bar .pagination-icon {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.pagination-bar .pagination-icon:first-child {
+  margin-left: 10px; /* Remove margin for the first icon */
+}
+
+.pagination-bar .pagination-dropdown {
+  margin-left: auto; /* Push the dropdown and buttons to the end */
+}
+
+/* Optionally, you can hide the space between the icons by using negative margin */
+.pagination-bar .pagination-icon + .pagination-icon {
+  margin-left: -5px; /* Adjust the negative margin as needed */
+}
+
+.pagination-input{
+  width:50px;
+}
+
+.paginationdropdown{
+  width:50px;
+}
+
+
+
+
+
+.button-column {
+  display: flex;
+  flex-direction: row;
+  gap: 2px; /* Adjust the gap between buttons as needed */
+}
+
+
+
+  

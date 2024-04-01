@@ -1,0 +1,528 @@
+.custom-input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.search-button{
+    height: auto;
+    width: auto;
+    color: blue;
+    margin-top:26px;
+    margin-right:50px;
+    margin-bottom: 30px;
+
+}
+
+.custom-inputst{
+    width: 90%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.custom-inputen{
+    width: 90%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.search-container{
+    height: 150px;
+    width: 90vw;
+    background-color: #ccc;
+
+}
+
+/* Add these styles to your SearchProfileContent.css file */
+
+.floating-label {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .floating-label input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .floating-label label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .floating-label input:focus + label,
+  .floating-label input:not(:placeholder-shown) + label {
+    top: -14px;
+    font-size: 12px;
+    color: #007bff; /* Change the color as needed */
+  }
+  
+
+
+
+
+
+  .search-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .col-2,
+  .col-4 {
+    margin-bottom: 10px;
+  }
+  
+  .custom-input-wrapper {
+    position: relative;
+  }
+  
+  .custom-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-input:focus,
+  .custom-input:not(:placeholder-shown) {
+    padding: 16px 8px 4px 8px;
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .custom-input-wrapper label {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-input:focus + label,
+  .custom-input:not(:placeholder-shown) + label {
+    transform: translateY(-100%);
+    font-size: 12px;
+  }
+  
+  .custom-radio-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-radio {
+    margin-right: 5px;
+  }
+  
+  .search-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+  
+.container {
+    background-color: #FBF8E6;
+    height: 330px;
+    padding: 15px;
+    width: 1050px;
+    margin: 2px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  
+  .row {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 24.5%;
+    padding: 0px;
+  }
+  
+  .common-input-field {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  #remarks {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 5px;
+  }
+  
+  #resume {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -50px;
+  }
+  /* AddProfileForm.css */
+  
+  .common-input-field {
+    width: 150px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 5px;
+  }
+  
+  .input-label {
+    font-size: 10px; /* Adjust the font size of the label */
+    
+  }
+  
+  #remarks {
+    width: 240px;
+    margin-left: 5px;
+    height: 35px;
+    border-radius: 5px;
+    background: transparent;
+  }
+  
+  #resume {
+    width: 25.4;
+    margin-top: -50px;
+    height: auto;
+    
+  }
+  .select-field {
+    transition: border-color 0.3s ease; /* You can customize the transition effect */
+  }
+  
+  
+  .input-label {
+    transform: translateY(-1.5px);
+  }
+  
+  
+  .container {
+    margin: 20px; /* Add margin to the entire container */
+  }
+  
+  .row {
+    margin-bottom: 10px; /* Add margin between rows */
+  }
+  
+  .col-3 {
+    margin-bottom: 10px;
+    margin-right: 5px; /* Add margin between columns */
+  }
+  
+  .input-label {
+    color: #3f51b5;
+    margin-bottom: -17px;
+    margin-left:3px;
+    padding-left: 50px;
+    
+  }
+  
+  .textarea-remarks {
+    width: 100%; /* Make Textarea full width */
+    height: 100px; /* Set the desired height for Remarks */
+    margin-bottom: 10px; /* Add margin to the Textarea */
+  }
+  
+  .file-input {
+    margin-bottom: 10px; /* Add margin to the file input */
+  }
+  
+  .submit-button {
+    margin-left: 1200px;
+  
+    
+  
+  
+  
+   
+  
+  .input-label {
+    color: #3f51b5; /* Default label color */
+  }
+  
+  .input-label-domain {
+    color: #009688; /* Label color for Domain */
+  }
+  
+  .input-label-recruiter {
+    color: #ff9800; /* Label color for Recruiter */
+  }
+  
+  .input-label-ctc,
+  .input-label-ectc,
+  .input-label-noticePeriod,
+  .input-label-experience {
+    color: #e91e63; /* Label color for CTC, ECTC, NP, and Experience */
+  }
+  
+  /* ... (other styles) */
+  
+  }
+  
+  
+  /* ... (previous styles) */
+  
+  
+  
+  .custom-select {
+    padding-top: 18px;
+    width: 10px; /* Adjust the width as needed */
+    height: 55px; /* Adjust the height as needed */
+    margin: 5px;
+    margin-top: 0px;
+    margin-right: 1200px;
+  }
+  
+  .custom-label.shrink {
+    transform: translateY(0) scale(0.75);
+    
+    margin-right: 5px;
+  }
+  .submit-button{
+    margin-left: 500px;
+  }
+  
+  
+/* SearchProfileContent.css */
+
+
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-2 {
+    width: 20%;
+    padding: 10px;
+  }
+  
+  .col-4 {
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .custom-input {
+    width: 100%;
+    margin-top: 8px; /* Adjust the margin as needed */
+  }
+  
+  .custom-radio {
+    margin-right: 5px;
+  }
+  
+  .custom-radio-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+
+/* SearchProfileContent.css */
+
+/* Add these styles to change the placeholder color */
+.custom-input input::placeholder {
+    color: #999; /* You can change this color to your desired placeholder color */
+    padding-left: 20px;
+  }
+  
+  /* Add these styles to change the label color */
+  .custom-input label {
+    color: #333; /* You can change this color to your desired label color */
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SearchProfileContent.css */
+
+.searchprofile-container {
+
+  margin:10px;
+  
+}
+
+.searchprofile-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.searchprofile-input {
+  flex: 1;
+  height: auto;
+}
+
+.searchprofile-radio-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.searchprofile-radio {
+  margin-right: 5px;
+}
+
+.searchprofile-radio-label {
+  margin-right: 10px;
+}
+
+.searchprofile-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.searchprofile-options{
+  border: #e91e63;
+  border-width: 1px;
+  border-style: solid;
+  width:98%;
+  padding: 10px;
+  height: 60px;
+  background-color: #FBF8E6;
+  border-radius: 5px;
+
+
+
+}
+
+.anothercontainer{
+  border: #e91e63;
+  border-width: 0px;
+  border-style: solid;
+  width:45%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 20px;
+  
+  background-color: #ccc;
+  
+
+
+}
+
+.anothercontainer{
+  border: #e91e63;
+  border-width: 0px;
+  border-style: solid;
+  width:40%;
+  padding: 5px;
+  
+  background-color: #ccc;
+  
+
+
+}
+.searchprofile-input{
+  margin-top: 10000px;
+  padding-top: 10000px;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  

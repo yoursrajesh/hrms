@@ -1,0 +1,61 @@
+.app-container {
+  position: relative;
+}
+
+.sidebar-open .sidebar {
+  left: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 5px;
+  z-index: 2;
+  height: 50px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+  transition: margin-left 0.3s;
+  padding: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -240px;
+  width: 240px;
+  height: 100%;
+  background-color: #f0b49e;
+  opacity: 0.9;
+  z-index: 3;
+  overflow-x: hidden;
+  transition: left 0.3s;
+}
+
+.sidebar-option {
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #d89c8a;
+  }
+}

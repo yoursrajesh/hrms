@@ -1,0 +1,29 @@
+/* LeaveStatusPage.css */
+
+.leave-status-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .leave-status-tab {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .leave-status-tab:hover {
+    background-color: #ddd;
+  }
+
+
+  .tab-content {
+    height: 400px; /* Adjust the height as per your preference */
+    overflow-y: auto; /* Add scrollbars if content exceeds the height */
+    /* Add any other styling you want for the content area */
+  }
+  

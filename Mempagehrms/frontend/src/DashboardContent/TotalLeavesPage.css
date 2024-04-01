@@ -1,0 +1,60 @@
+/* TotalLeavesPage.css */
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the approve button */
+  button.approve-button {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  /* Style for the reject button */
+  button.reject-button {
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+
+  /* TotalLeavesPage.css */
+
+.visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .approve-button {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .reject-button {
+    background-color: lightcoral;
+    color: black;
+  }
+  
+  

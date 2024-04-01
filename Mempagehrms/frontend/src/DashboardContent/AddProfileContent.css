@@ -1,0 +1,59 @@
+
+
+
+
+.manage-profile-tab {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.manage-profile-tab:hover {
+  background-color: #f0f0f0;
+}
+
+.manage-profile-tab.active {
+  background-color:green;
+  color: #fff;
+}
+
+.manage-profile-tab-icon {
+  margin-right: 5px;
+}
+
+
+
+/* Add your transition styles if needed */
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+ 
+
+
+
+
+
+
+
+

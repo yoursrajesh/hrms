@@ -1,0 +1,51 @@
+/* src/DashboardContent/EmployeeForm.css */
+
+
+
+
+.form-label {
+    flex: 0 0 20%; /* Adjust the width of labels */
+    font-size: 16px;
+    
+    margin-bottom: 0px;
+}
+
+.custom-input,
+.custom-select,
+.custom-file {
+    flex: 1; /* Adjust the width of input fields, select, and file input to take remaining space */
+    padding: 10px;
+    margin-bottom: 15px;
+   
+    border-radius: 5px;
+    width:200px;
+}
+
+.custom-button {
+    flex: 0 0 100%; /* Make the button full-width */
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+
+.employee-form card{
+    display: flex;
+    align-items: center;
+}
+
+.uploadfields{
+    height: 70px;
+    width: 150px;
+}
+
+
+

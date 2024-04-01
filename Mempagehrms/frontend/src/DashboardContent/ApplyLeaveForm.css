@@ -1,0 +1,22 @@
+.apply-leave-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .apply-leave-card form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .apply-leave-card label {
+    font-weight: bold;
+  }
+  
+  .apply-leave-card span {
+    font-weight: bold;
+  }
+  

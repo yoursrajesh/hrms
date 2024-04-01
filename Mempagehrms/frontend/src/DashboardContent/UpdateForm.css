@@ -1,0 +1,129 @@
+
+#updateForm {
+  width: 100% !important;
+  max-width: 800px !important; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  height: auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+
+
+/* .updatecard {
+  width:80vh;
+  margin: auto;
+  padding: 20px;
+  
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.card-body {
+  padding: 20px;
+}
+
+.form-row {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  flex: 1; /* Make form groups evenly spaced */
+}
+
+/* Adjust the label styles */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+/* Adjust the input styles */
+.form-control {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+.btn-primary {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+
+
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.form-group {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 12px; /* Adjust the font size as needed */
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  /* Add additional styling for the input, select, and textarea if needed */
+}
+
+
+
+
+/* UpdateForm.css */
+
+.updateform-label {
+  display: block;
+  font-size: 12px; /* Adjust the font size as needed */
+  margin-bottom: 5px;
+}
+
+.updateform-field {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add border properties */
+  border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  margin-bottom: 10px; /* Optional: Add margin to separate fields */
+}
+/* .remarks{
+  height:40 px;   
+} */
+
+

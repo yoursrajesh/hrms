@@ -1,0 +1,71 @@
+/* EditEmployeeForm.css */
+
+.editupdatedform {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 600px; /* Adjust width as needed */
+}
+
+.editemployeeform {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.input-wrapper:last-child {
+  margin-right: 0;
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button-wrapper button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-wrapper button:first-child {
+  margin-left: 0;
+}
+
+.button-wrapper button:hover {
+  background-color: #0056b3;
+}

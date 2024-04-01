@@ -1,0 +1,202 @@
+
+
+
+
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-table-container {
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 5px;
+}
+
+.action-button {
+  cursor: pointer;
+  
+  color: #fff;
+  background-color:transparent;
+ 
+  padding: 5px;
+  border:transparent;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.resume-button {
+  background-color:transparent;
+  border:transparent;
+}
+
+.update-button {
+  background-color:transparent;
+}
+
+.delete-button {
+  background-color:transparent;
+
+
+}
+
+.pagination-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination-bar span {
+  margin-right: 10px;
+}
+
+.pagination-icon {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.pagination-icon.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+#updateForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.pdf-viewer-container {
+  margin-top: 20px;
+}
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 60vw;
+  height: 75vh;
+  
+  margin-top: 20px;
+}
+
+
+
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding:3px;
+  text-align: left;
+  color: black; 
+} 
+
+
+
+
+
+.pagination-bar {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom:50px;
+}
+
+.pagination-bar .pagination-icon {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.pagination-bar .pagination-icon:first-child {
+  margin-left: 10px; /* Remove margin for the first icon */
+}
+
+.pagination-bar .pagination-dropdown {
+  margin-left: auto; /* Push the dropdown and buttons to the end */
+}
+
+/* Optionally, you can hide the space between the icons by using negative margin */
+.pagination-bar .pagination-icon + .pagination-icon {
+  margin-left: -5px; /* Adjust the negative margin as needed */
+}
+
+
+
+.user-table tbody tr:nth-child(odd) {
+  background-color:  #ffffff; /* Set the background color for odd rows */
+  
+  font-size: 14px;
+  padding:0px;
+
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color:#f2f2f2; /* Set the background color for even rows */
+  font-size: 14px;
+  padding:0px;
+}
+
+.user-table thead th {
+  background-color: #4285f4; /* Set the background color for the table header */
+  color: #ffffff; /* Set the text color for the table header */
+  text-align: center;
+}
+
+.sort-indicator {
+  color: lightcyan;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+ 
